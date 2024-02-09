@@ -90,6 +90,38 @@ li {
     margin-bottom: 0.3em;
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: top;
+    padding-bottom: 3px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+td:nth-child(1) {
+    text-align: right;
+    font-weight: bold;
+}
+
+td:nth-child(2) {
+    text-align: center;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+td:nth-child(3) {
+    text-align: left;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
 .dashed-list ul {
     list-style-type: none;
     padding-left: 10px;
@@ -109,8 +141,16 @@ li {
     -webkit-column-count: 4; /* Chrome, Safari, Opera */
     -moz-column-count: 4;    /* Firefox */
     column-count: 4;         /* Standard syntax */
+}
 
+.gap-20 {
     -webkit-column-gap: 20px; /* Chrome, Safari, Opera */
     -moz-column-gap: 20px;    /* Firefox */
     column-gap: 20px;         /* Standard syntax */
+}
+
+.gap-10 {
+    -webkit-column-gap: 10px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 10px;    /* Firefox */
+    column-gap: 10px;         /* Standard syntax */
 }
