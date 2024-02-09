@@ -73,7 +73,7 @@ h2 {
 }
 
 p {
-    color: #666;
+    color: #555;
     margin-top: 0.8em;
     margin-bottom: 0.8em;
 }
@@ -114,6 +114,7 @@ td:nth-child(2) {
 }
 
 td:nth-child(3) {
+    color: #555;
     text-align: left;
     word-wrap: break-word;
     -webkit-hyphens: auto;
